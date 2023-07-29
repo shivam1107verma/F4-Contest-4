@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F8FAFC;
+  background-image: url("./images/Background\ Pattern.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-page  {
+  background-color: white;
+  width: 25%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 5px 2px 0px #f4f0f0;
+  margin-top: 15vh;
+}
+.profile-page{
+  background-color: white;
+  width: 25%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 5px 2px 0px #f4f0f0;
+  
+
+}
+h1{
+  text-align: center;
+  color: #19bb9d;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 8vh;
+}
+.image{
+  
+  border-radius: 50%;
+  background-color: #faf7f7;
+  
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 2px 0px #f4f0f0;
+}
+
+.user-info{
+  font-size: 20px;
+  line-height: 2rem;
+  padding: 10px;
+  margin-left:20px;
+ 
+  
+  
+}
+
+
+.welcome-title{
+  font-size: 14px;
+color:#757575
+}
+
+.sigin-title{
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.label{
+  color: #757575;
+  font-size: 14px;
+ 
+  margin-top: 10px;
+}
+
+input{
+  width:90%;
+  padding: 0 20px;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  
+  
+}
+button{
+  width:90%;
+  padding: 0 20px;
+  height: 45px;
+  margin-top: 30px;
+  background-color: #625BF7;
+  border: none;
+  color:white;
+  
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.forget-password-title{
+  color: #625BF7;
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  Line-height: 15px;
+}
+.no-account-title{
+  text-align: center;
+  margin-top: 40px;
+}
+.no-account-title span{
+  color:#625BF7;
+}
+
+@media (max-width: 600px) {
+  /* Modify the styles for smaller screens */
+  .login-page {
+    /* Example: Make the form centered on smaller screens */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-size: cover;
+  }
+  body{
+    background-size: cover;
+  }
+
+
+  /* Example: Adjust font size for smaller screens */
+  
+}
+@media (min-width:600px)and (max-width:768px) {
+  /* Modify the styles for smaller screens */
+  .login-page {
+    /* Example: Make the form centered on smaller screens */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    background-size: cover;
+  }
+  body{
+    background-size: cover;
+  }
+
+
+  /* Example: Adjust font size for smaller screens */
+  
+}
+
+@media (min-width: 768px) {
+  /* Modify the styles for smaller screens */
+  .login-page {
+    /* Example: Make the form centered on smaller screens */
+    width:30%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    
+  }
+  body{
+    background-size: cover;
+  }
+
+
+
+  /* Example: Adjust font size for smaller screens */
+  
+}
+
+
+
